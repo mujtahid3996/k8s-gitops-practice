@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: gitops-nginx
+  namespace: apps
   labels:
     app: gitops-nginx
 spec:
